@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1552061740640" org.eventb.texttools.text_representation="context C1&#10;sets USER&#10;end&#10;" version="3">
+<org.eventb.core.carrierSet name="_CPMn8EG1EemHHNQ2Ds7mug" org.eventb.core.generated="false" org.eventb.core.identifier="USER"/>
+</org.eventb.core.contextFile>

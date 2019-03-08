@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scCarrierSet name="USER" org.eventb.core.source="/Worksheet_5/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.carrierSet#_CPMn8EG1EemHHNQ2Ds7mug" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.scContextFile>

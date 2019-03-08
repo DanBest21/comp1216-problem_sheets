@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="USER" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="2">
+<org.eventb.core.poIdentifier name="login" org.eventb.core.type="ℙ(USER)"/>
+<org.eventb.core.poIdentifier name="registered" org.eventb.core.type="ℙ(USER)"/>
+<org.eventb.core.poIdentifier name="staff" org.eventb.core.type="ℙ(USER)"/>
+<org.eventb.core.poIdentifier name="students" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="INITIALISATION/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisteree"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(∅ ⦂ ℙ(USER))⊆(∅ ⦂ ℙ(USER))" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INITIALISATION\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisteree"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(∅ ⦂ ℙ(USER))⊆(∅ ⦂ ℙ(USER))" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INITIALISATION\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisteree"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(∅ ⦂ ℙ(USER))⊆(∅ ⦂ ℙ(USER))∪(∅ ⦂ ℙ(USER))" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INITIALISATION\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisteree"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(∅ ⦂ ℙ(USER))∩(∅ ⦂ ℙ(USER))=(∅ ⦂ ℙ(USER))" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#INITIALISATION\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTregisteree" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="4">
+<org.eventb.core.poIdentifier name="registered'" org.eventb.core.type="ℙ(USER)"/>
+<org.eventb.core.poIdentifier name="students'" org.eventb.core.type="ℙ(USER)"/>
+<org.eventb.core.poIdentifier name="staff'" org.eventb.core.type="ℙ(USER)"/>
+<org.eventb.core.poIdentifier name="login'" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregisteree" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregisteree" org.eventb.core.poStamp="4"/>
+<org.eventb.core.poSequent name="RegisterStudent/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="10">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisteref"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="students∪{u}⊆registered∪{u}" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_qAxi0kG5EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RegisterStudent\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RegisterStudent/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="10">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisteref"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="staff⊆registered∪{u}" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_qAxi0kG5EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RegisterStudent\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RegisterStudent/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="10">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisteref"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="login⊆(students∪{u})∪staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_qAxi0kG5EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RegisterStudent\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RegisterStudent/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="10">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisteref"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(students∪{u})∩staff=(∅ ⦂ ℙ(USER))" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_qAxi0kG5EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RegisterStudent\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTregisteref" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="10">
+<org.eventb.core.poIdentifier name="u" org.eventb.core.type="USER"/>
+<org.eventb.core.poIdentifier name="students'" org.eventb.core.type="ℙ(USER)"/>
+<org.eventb.core.poIdentifier name="registered'" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregisteref" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregisteref" org.eventb.core.poStamp="10">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="u∉registered" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_qAxi0kG5EemHHNQ2Ds7mug|org.eventb.core.guard#_qAxi1EG5EemHHNQ2Ds7mug"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="u∉students∪staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_qAxi0kG5EemHHNQ2Ds7mug|org.eventb.core.guard#_qAxi1UG5EemHHNQ2Ds7mug"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="RegisterStaff/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregistereg"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="students⊆registered∪{u}" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_PjFXgEHDEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RegisterStaff\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RegisterStaff/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregistereg"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="staff∪{u}⊆registered∪{u}" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_PjFXgEHDEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RegisterStaff\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RegisterStaff/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregistereg"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="login⊆students∪(staff∪{u})" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_PjFXgEHDEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RegisterStaff\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RegisterStaff/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregistereg"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="students∩(staff∪{u})=(∅ ⦂ ℙ(USER))" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_PjFXgEHDEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RegisterStaff\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTregistereg" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="17">
+<org.eventb.core.poIdentifier name="u" org.eventb.core.type="USER"/>
+<org.eventb.core.poIdentifier name="registered'" org.eventb.core.type="ℙ(USER)"/>
+<org.eventb.core.poIdentifier name="staff'" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregistereg" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregistereg" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="u∉registered" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_PjFXgEHDEemp940lZnT2ng|org.eventb.core.guard#_qAxi2UG5EemHHNQ2Ds7mug"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="u∉students∪staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_PjFXgEHDEemp940lZnT2ng|org.eventb.core.guard#_qAxi2kG5EemHHNQ2Ds7mug"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="RemoveStudent/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregistereh"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="students ∖ {u}⊆registered ∖ {u}" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_grt28EHEEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RemoveStudent\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RemoveStudent/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregistereh"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="staff⊆registered ∖ {u}" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_grt28EHEEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RemoveStudent\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RemoveStudent/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregistereh"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="login⊆(students ∖ {u})∪staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_grt28EHEEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RemoveStudent\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RemoveStudent/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregistereh"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(students ∖ {u})∩staff=(∅ ⦂ ℙ(USER))" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_grt28EHEEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RemoveStudent\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTregistereh" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="17">
+<org.eventb.core.poIdentifier name="u" org.eventb.core.type="USER"/>
+<org.eventb.core.poIdentifier name="students'" org.eventb.core.type="ℙ(USER)"/>
+<org.eventb.core.poIdentifier name="registered'" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregistereh" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregistereh" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="u∈registered" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_grt28EHEEemp940lZnT2ng|org.eventb.core.guard#_9vGHkkG5EemHHNQ2Ds7mug"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="u∈students" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_grt28EHEEemp940lZnT2ng|org.eventb.core.guard#_Sd7NcEHCEemp940lZnT2ng"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="u∉login" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_grt28EHEEemp940lZnT2ng|org.eventb.core.guard#_UDzJoEHDEemp940lZnT2ng"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="RemoveStaff/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisterei"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="students⊆registered ∖ {u}" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_kwwZsEHEEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RemoveStaff\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RemoveStaff/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisterei"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="staff ∖ {u}⊆registered ∖ {u}" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_kwwZsEHEEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RemoveStaff\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RemoveStaff/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisterei"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="login⊆students∪(staff ∖ {u})" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_kwwZsEHEEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RemoveStaff\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RemoveStaff/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisterei"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="students∩(staff ∖ {u})=(∅ ⦂ ℙ(USER))" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_kwwZsEHEEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#RemoveStaff\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTregisterei" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="17">
+<org.eventb.core.poIdentifier name="u" org.eventb.core.type="USER"/>
+<org.eventb.core.poIdentifier name="registered'" org.eventb.core.type="ℙ(USER)"/>
+<org.eventb.core.poIdentifier name="staff'" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregisterei" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregisterei" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="u∈registered" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_kwwZsEHEEemp940lZnT2ng|org.eventb.core.guard#_PjFXgkHDEemp940lZnT2ng"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="u∈staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_kwwZsEHEEemp940lZnT2ng|org.eventb.core.guard#_PjFXg0HDEemp940lZnT2ng"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="u∉login" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_kwwZsEHEEemp940lZnT2ng|org.eventb.core.guard#_FyiOAEHEEemp940lZnT2ng"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="LoginStudent/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisterej"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="login∪{u}⊆students∪staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_bo2PcEHDEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#LoginStudent\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTregisterej" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="16">
+<org.eventb.core.poIdentifier name="u" org.eventb.core.type="USER"/>
+<org.eventb.core.poIdentifier name="login'" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregisterej" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregisterej" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="u∈students" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_bo2PcEHDEemp940lZnT2ng|org.eventb.core.guard#_bpAAcUHDEemp940lZnT2ng"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="u∉login" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_bo2PcEHDEemp940lZnT2ng|org.eventb.core.guard#_bpAAckHDEemp940lZnT2ng"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="LoginStaff/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisterek"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="login∪{u}⊆students∪staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_qAxi10G5EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#LoginStaff\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTregisterek" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="u" org.eventb.core.type="USER"/>
+<org.eventb.core.poIdentifier name="login'" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregisterek" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregisterek" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="u∈staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_qAxi10G5EemHHNQ2Ds7mug|org.eventb.core.guard#_5_L7w0HDEemp940lZnT2ng"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="u∉login" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_qAxi10G5EemHHNQ2Ds7mug|org.eventb.core.guard#_5_L7xEHDEemp940lZnT2ng"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="LogoutStudent/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisterel"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="login ∖ {u}⊆students∪staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_5_L7wEHDEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#LogoutStudent\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTregisterel" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="17">
+<org.eventb.core.poIdentifier name="u" org.eventb.core.type="USER"/>
+<org.eventb.core.poIdentifier name="login'" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregisterel" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregisterel" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="u∈students" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_5_L7wEHDEemp940lZnT2ng|org.eventb.core.guard#_5_VswEHDEemp940lZnT2ng"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="u∈login" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_5_L7wEHDEemp940lZnT2ng|org.eventb.core.guard#_5_VswUHDEemp940lZnT2ng"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="LogoutStaff/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisterem"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="login ∖ {u}⊆students∪staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_5_L7wUHDEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#LogoutStaff\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTregisterem" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="17">
+<org.eventb.core.poIdentifier name="u" org.eventb.core.type="USER"/>
+<org.eventb.core.poIdentifier name="login'" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregisterem" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregisterem" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="u∈staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_5_L7wUHDEemp940lZnT2ng|org.eventb.core.guard#_Fyhm8kHEEemp940lZnT2ng"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="u∈login" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_5_L7wUHDEemp940lZnT2ng|org.eventb.core.guard#_Fyhm80HEEemp940lZnT2ng"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="ChangeUserFromStudentToStaff/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisteren"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="students ∖ {u}⊆registered" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_dO4IMEG6EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#ChangeUserFromStudentToStaff\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ChangeUserFromStudentToStaff/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisteren"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="staff∪{u}⊆registered" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_dO4IMEG6EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#ChangeUserFromStudentToStaff\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ChangeUserFromStudentToStaff/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisteren"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="login⊆(students ∖ {u})∪(staff∪{u})" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_dO4IMEG6EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#ChangeUserFromStudentToStaff\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ChangeUserFromStudentToStaff/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregisteren"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(students ∖ {u})∩(staff∪{u})=(∅ ⦂ ℙ(USER))" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_dO4IMEG6EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#ChangeUserFromStudentToStaff\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTregisteren" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="u" org.eventb.core.type="USER"/>
+<org.eventb.core.poIdentifier name="students'" org.eventb.core.type="ℙ(USER)"/>
+<org.eventb.core.poIdentifier name="staff'" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregisteren" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregisteren" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="u∈students" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_dO4IMEG6EemHHNQ2Ds7mug|org.eventb.core.guard#_gr6rQUHEEemp940lZnT2ng"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="u∉staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_dO4IMEG6EemHHNQ2Ds7mug|org.eventb.core.guard#_gr6rQkHEEemp940lZnT2ng"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="u∉login" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_dO4IMEG6EemHHNQ2Ds7mug|org.eventb.core.guard#_gr7SVUHEEemp940lZnT2ng"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="ChangeUserFromStaffToStudent/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregistereo"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="students∪{u}⊆registered" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_Fyhm8EHEEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#ChangeUserFromStaffToStudent\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ChangeUserFromStaffToStudent/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregistereo"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="staff ∖ {u}⊆registered" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_Fyhm8EHEEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#ChangeUserFromStaffToStudent\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ChangeUserFromStaffToStudent/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregistereo"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="login⊆(students∪{u})∪(staff ∖ {u})" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_Fyhm8EHEEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#ChangeUserFromStaffToStudent\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ChangeUserFromStaffToStudent/inv5/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="17">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTALLHYPregistereo"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(students∪{u})∩(staff ∖ {u})=(∅ ⦂ ℙ(USER))" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_Fyhm8EHEEemp940lZnT2ng"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poSequent#ChangeUserFromStaffToStudent\/inv5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTregistereo" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="u" org.eventb.core.type="USER"/>
+<org.eventb.core.poIdentifier name="students'" org.eventb.core.type="ℙ(USER)"/>
+<org.eventb.core.poIdentifier name="staff'" org.eventb.core.type="ℙ(USER)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregistereo" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregistereo" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="u∈staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_Fyhm8EHEEemp940lZnT2ng|org.eventb.core.guard#_gr7SU0HEEemp940lZnT2ng"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="u∉students" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_Fyhm8EHEEemp940lZnT2ng|org.eventb.core.guard#_gr7SVEHEEemp940lZnT2ng"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="u∉login" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_Fyhm8EHEEemp940lZnT2ng|org.eventb.core.guard#_kw8m8EHEEemp940lZnT2ng"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Worksheet_5/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="registered⊆USER" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supEG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="students⊆registered" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supUG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="staff⊆registered" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-supkG1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="login⊆students∪staff" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_2-sup0G1EemHHNQ2Ds7mug"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="students∩staff=(∅ ⦂ ℙ(USER))" org.eventb.core.source="/Worksheet_5/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_DvsioEG7EemHHNQ2Ds7mug"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
