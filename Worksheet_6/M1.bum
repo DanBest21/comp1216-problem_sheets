@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1552683423549" org.eventb.texttools.text_representation="machine M1&#10;sees C1&#10;&#10;variables students courses registration&#10;&#10;invariants&#10;&#9;@inv1 students ⊆ STUDENT&#10;&#9;@inv2 courses ⊆ COURSE&#10;&#9;@inv3 registration ∈ STUDENT ↔ COURSE&#10;&#10;events&#10;  event INITIALISATION&#10;  &#9;then&#10;  &#9;&#9;@act1 students ≔ ∅&#10;  &#9;&#9;@act2 courses ≔ ∅&#10;  &#9;&#9;@act3 registration ≔ ∅&#10;  &#9;end&#10;&#10;  event EnrollStudent&#10;  &#9;any s where&#10;  &#9;&#9;@grd1 s ⊆ STUDENT&#10;  &#9;&#9;@grd2 s ∉ students&#10;  &#9;then&#10;  &#9;&#9;@act1 students ≔ students ∪ {s}&#10;  &#9;end&#10;&#10;  event DeEnrollStudent&#10;  &#9;any s where&#10;  &#9;&#9;@grd1 s ∈ students&#10;  &#9;then&#10;  &#9;&#9;@act1 students ≔ students ∖ {s}&#10;  &#9;&#9;@act2 registration ≔ {s} ⩤ registration&#10;   &#9;end&#10;&#10;  event AddCourse&#10;  &#9;any c where&#10;  &#9;&#9;@grd1 c ⊆ COURSE&#10;  &#9;&#9;@grd2 c ∉ courses&#10;  &#9;then&#10;  &#9;&#9;@act1 courses ≔ courses ∪ {c}&#10;  &#9;end&#10;&#10;  event RemoveCourse&#10;  &#9;any c where&#10;  &#9;&#9;@grd1 c ∈ courses&#10;  &#9;then&#10;  &#9; &#9;@act1 courses ≔ courses ∖ {c}&#10;  &#9; &#9;@act2 registration ≔ {c} ⩤ registration&#10;  &#9;end&#10;&#10;  event Register&#10;  &#9;any s c where&#10;  &#9;&#9;@grd1 s ∈ students&#10;  &#9;&#9;@grd2 c ∈ courses&#10;  &#9;&#9;@grd3 s ↦ c ∉ registration&#10;  &#9;then&#10;  &#9;&#9;@act1 registration ≔ registration ∪  {s ↦ c}&#10;  &#9;end&#10;end&#10;" version="5">
+<org.eventb.core.seesContext name="_QVFkUEc2EemTBeU9-8cI9A" org.eventb.core.target="C1"/>
+<org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="_oXyS4Ec3EemTBeU9-8cI9A" org.eventb.core.assignment="students ≔ ∅" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="_oXyS4Uc3EemTBeU9-8cI9A" org.eventb.core.assignment="courses ≔ ∅" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+<org.eventb.core.action name="_oXyS4kc3EemTBeU9-8cI9A" org.eventb.core.assignment="registration ≔ ∅" org.eventb.core.generated="false" org.eventb.core.label="act3"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="_zQErEEc3EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.identifier="students"/>
+<org.eventb.core.variable name="_zQErEUc3EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.identifier="courses"/>
+<org.eventb.core.variable name="_takiMEc1EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.identifier="registration"/>
+<org.eventb.core.invariant name="_takiMUc1EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.label="inv1" org.eventb.core.predicate="students ⊆ STUDENT"/>
+<org.eventb.core.invariant name="_Z_1V4Ec3EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.label="inv2" org.eventb.core.predicate="courses ⊆ COURSE"/>
+<org.eventb.core.invariant name="_Z_1V4Uc3EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.label="inv3" org.eventb.core.predicate="registration ∈ STUDENT ↔ COURSE"/>
+<org.eventb.core.event name="_f1u80Ec4EemTBeU9-8cI9A" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="EnrollStudent">
+<org.eventb.core.parameter name="_f1u80Uc4EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.identifier="s"/>
+<org.eventb.core.guard name="_f1u80kc4EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="s ⊆ STUDENT"/>
+<org.eventb.core.guard name="_g0BUkEc5EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="s ∉ students"/>
+<org.eventb.core.action name="_f1u800c4EemTBeU9-8cI9A" org.eventb.core.assignment="students ≔ students ∪ {s}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_f1u81Ec4EemTBeU9-8cI9A" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="DeEnrollStudent">
+<org.eventb.core.parameter name="_f1u81Uc4EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.identifier="s"/>
+<org.eventb.core.guard name="_f1u81kc4EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="s ∈ students"/>
+<org.eventb.core.action name="_f1u810c4EemTBeU9-8cI9A" org.eventb.core.assignment="students ≔ students ∖ {s}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="_rsLJ4Ec5EemTBeU9-8cI9A" org.eventb.core.assignment="registration ≔ {s} ⩤ registration" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_f1u82Ec4EemTBeU9-8cI9A" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="AddCourse">
+<org.eventb.core.parameter name="_f1u82Uc4EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.identifier="c"/>
+<org.eventb.core.guard name="_f14t0Ec4EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="c ⊆ COURSE"/>
+<org.eventb.core.guard name="_g0LFkEc5EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="c ∉ courses"/>
+<org.eventb.core.action name="_f14t0Uc4EemTBeU9-8cI9A" org.eventb.core.assignment="courses ≔ courses ∪ {c}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_f15U4Ec4EemTBeU9-8cI9A" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="RemoveCourse">
+<org.eventb.core.parameter name="_f15U4Uc4EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.identifier="c"/>
+<org.eventb.core.guard name="_f15U4kc4EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="c ∈ courses"/>
+<org.eventb.core.action name="_f1578Ec4EemTBeU9-8cI9A" org.eventb.core.assignment="courses ≔ courses ∖ {c}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="_ucO2sEc5EemTBeU9-8cI9A" org.eventb.core.assignment="registration ≔ {c} ⩤ registration" org.eventb.core.generated="false" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="_g0LFkUc5EemTBeU9-8cI9A" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="Register">
+<org.eventb.core.parameter name="_g0LFkkc5EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.identifier="s"/>
+<org.eventb.core.parameter name="_g0LFk0c5EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.identifier="c"/>
+<org.eventb.core.guard name="_g0LFlEc5EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.label="grd1" org.eventb.core.predicate="s ∈ students"/>
+<org.eventb.core.guard name="_g0LFlUc5EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.label="grd2" org.eventb.core.predicate="c ∈ courses"/>
+<org.eventb.core.guard name="_g0LFlkc5EemTBeU9-8cI9A" org.eventb.core.generated="false" org.eventb.core.label="grd3" org.eventb.core.predicate="s ↦ c ∉ registration"/>
+<org.eventb.core.action name="_g0LFl0c5EemTBeU9-8cI9A" org.eventb.core.assignment="registration ≔ registration ∪  {s ↦ c}" org.eventb.core.generated="false" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>

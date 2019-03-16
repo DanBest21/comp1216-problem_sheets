@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="COURSE" org.eventb.core.type="ℙ(COURSE)"/>
+<org.eventb.core.poIdentifier name="STUDENT" org.eventb.core.type="ℙ(STUDENT)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="5">
+<org.eventb.core.poIdentifier name="courses" org.eventb.core.type="ℙ(COURSE)"/>
+<org.eventb.core.poIdentifier name="registration" org.eventb.core.type="ℙ(STUDENT×COURSE)"/>
+<org.eventb.core.poIdentifier name="students" org.eventb.core.type="ℙ(STUDENT)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTregistratioo" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="5">
+<org.eventb.core.poIdentifier name="students'" org.eventb.core.type="ℙ(STUDENT)"/>
+<org.eventb.core.poIdentifier name="courses'" org.eventb.core.type="ℙ(COURSE)"/>
+<org.eventb.core.poIdentifier name="registration'" org.eventb.core.type="ℙ(STUDENT×COURSE)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregistratioo" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregistratioo" org.eventb.core.poStamp="5"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTregistratiop" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="7">
+<org.eventb.core.poIdentifier name="s" org.eventb.core.type="ℙ(STUDENT)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregistratiop" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregistratiop" org.eventb.core.poStamp="7">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s⊆STUDENT" org.eventb.core.source="/Worksheet_6/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_f1u80Ec4EemTBeU9-8cI9A|org.eventb.core.guard#_f1u80kc4EemTBeU9-8cI9A"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTregistratioq" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="8">
+<org.eventb.core.poIdentifier name="students'" org.eventb.core.type="ℙ(STUDENT)"/>
+<org.eventb.core.poIdentifier name="registration'" org.eventb.core.type="ℙ(STUDENT×COURSE)"/>
+<org.eventb.core.poIdentifier name="s" org.eventb.core.type="STUDENT"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregistratioq" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregistratioq" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s∈students" org.eventb.core.source="/Worksheet_6/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_f1u81Ec4EemTBeU9-8cI9A|org.eventb.core.guard#_f1u81kc4EemTBeU9-8cI9A"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTregistratior" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="7">
+<org.eventb.core.poIdentifier name="c" org.eventb.core.type="ℙ(COURSE)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregistratior" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregistratior" org.eventb.core.poStamp="7">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="c⊆COURSE" org.eventb.core.source="/Worksheet_6/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_f1u82Ec4EemTBeU9-8cI9A|org.eventb.core.guard#_f14t0Ec4EemTBeU9-8cI9A"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTregistratios" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="c" org.eventb.core.type="COURSE"/>
+<org.eventb.core.poIdentifier name="courses'" org.eventb.core.type="ℙ(COURSE)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregistratios" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregistratios" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="c∈courses" org.eventb.core.source="/Worksheet_6/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_f15U4Ec4EemTBeU9-8cI9A|org.eventb.core.guard#_f15U4kc4EemTBeU9-8cI9A"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTregistratiot" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="8">
+<org.eventb.core.poIdentifier name="c" org.eventb.core.type="COURSE"/>
+<org.eventb.core.poIdentifier name="registration'" org.eventb.core.type="ℙ(STUDENT×COURSE)"/>
+<org.eventb.core.poIdentifier name="s" org.eventb.core.type="STUDENT"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPregistratiot" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#EVTIDENTregistratiot" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s∈students" org.eventb.core.source="/Worksheet_6/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_g0LFkUc5EemTBeU9-8cI9A|org.eventb.core.guard#_g0LFlEc5EemTBeU9-8cI9A"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="c∈courses" org.eventb.core.source="/Worksheet_6/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#_g0LFkUc5EemTBeU9-8cI9A|org.eventb.core.guard#_g0LFlUc5EemTBeU9-8cI9A"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Worksheet_6/M1.bpo|org.eventb.core.poFile#M1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="5">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="students⊆STUDENT" org.eventb.core.source="/Worksheet_6/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_takiMUc1EemTBeU9-8cI9A"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="courses⊆COURSE" org.eventb.core.source="/Worksheet_6/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_Z_1V4Ec3EemTBeU9-8cI9A"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="registration∈STUDENT ↔ COURSE" org.eventb.core.source="/Worksheet_6/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#_Z_1V4Uc3EemTBeU9-8cI9A"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
